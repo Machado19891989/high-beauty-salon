@@ -1,0 +1,87 @@
+@media screen and (max-width: 415px) {
+    .the-homepage .container {
+        padding-left: 30px;
+        padding-right: 30px
+    }
+}
+@media screen and (min-width: 416px) {
+
+    .hero.midnight-gray-deep,
+    .hero.atlas-blue,
+    .hero.gradient {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center
+    }
+
+    .hero.midnight-gray-deep .container,
+    .hero.atlas-blue .container,
+    .hero.gradient .container {
+        -webkit-flex-grow: 1;
+        flex-grow: 1
+    }
+}
+
+.hero.product .container,
+.hero.integrations .container {
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center
+}
+
+.hero-band .container {
+    width: 100%
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width:576px) {
+    .container {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1140px
+    }
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+.navbar>.container,
+.navbar>.container-fluid {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
